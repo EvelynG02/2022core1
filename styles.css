@@ -1,0 +1,40 @@
+
+
+body {
+    background-color: rgb(179, 190, 247);
+    font-family: sans-serif;
+  }
+  h1 {
+    color: rgb(0, 0, 0);
+  }
+  p {
+    color: rgb(0, 0, 0);
+  }
+  ol {
+    list-style-type: upper-roman;
+  }
+  div{
+    text-align: center;
+}
+a{
+    display: block;
+}
+/* unvisited link */
+a:link {
+    color: #2d3663;
+  }
+  
+  /* visited link */
+  a:visited {
+    color:   #fcfcfc;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: #5f70c3;
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(0, 0, 0);;
+  }
