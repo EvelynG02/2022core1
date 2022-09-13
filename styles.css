@@ -46,7 +46,14 @@ a:link {
 
  }
  .underline {
-  text-decoration: underline  line-through dotted;}
+  text-decoration: underline  line-through dotted;
+  font-weight: bold;
+}
   .onlyunder {
     text-decoration: underline dotted;
+    font-weight: bold;
+    font-style: italic;
+  }
+  ul {
+    line-height: 1.75em;
   }
