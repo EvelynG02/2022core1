@@ -1,7 +1,7 @@
 
 
 body {
-    background-color: rgb(179, 190, 247);
+    background-color: rgb(195, 179, 247);
     font-family: sans-serif;
   }
   h1 {
@@ -21,20 +21,32 @@ a{
 }
 /* unvisited link */
 a:link {
-    color: #2d3663;
+    color: #89469a;
   }
   
   /* visited link */
   a:visited {
-    color:   #fcfcfc;
+    color:   #991984;
   }
   
   /* mouse over link */
   a:hover {
-    color: #5f70c3;
+    color: #ef3cd1;
   }
   
   /* selected link */
   a:active {
     color: rgb(0, 0, 0);;
+  }
+
+ .name {
+  text-align: center;
+  text-decoration: underline  line-through dotted;
+
+
+ }
+ .underline {
+  text-decoration: underline  line-through dotted;}
+  .onlyunder {
+    text-decoration: underline dotted;
   }
