@@ -1,0 +1,16 @@
+
+.sectiondiv {
+
+}
+.divcontainer {
+    display: flex;
+}
+
+.onediv {
+    flex: 1;
+    border: 2px solid rgb(126, 99, 148);
+}  
+
+.twodiv {
+    margin-right: 20px;
+} 
