@@ -1,8 +1,10 @@
-.outline {
+div.outline {
     background-color: white; 
-  height: 100px;
-  width: 100px;
+  height:500px;
+  width: 500px;
     border-style: solid;
     border-width: 20px;
     border-color: black;
+    margin: 20pt;
+    padding: 110pt;
 }
