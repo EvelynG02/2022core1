@@ -8,12 +8,12 @@
 
 }
 .grid-item {
-    border:3px dotted rgb(70, 13, 116);
-    background-color: rgb(221, 192, 244);
-    padding: 30px;
+  border:3px dotted rgb(70, 13, 116);
+ background-color: rgb(221, 192, 244);
+  padding: 30px;
   font-size: 30px;
   text-align: center;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: 'Lucida Sans';
   font-weight: bold;
   
 
@@ -22,3 +22,10 @@ body {
     background-color: rgb(105, 116, 103);
 }
 
+.heading {
+  text-align: center;
+  font-size: 45px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color:  rgb(70, 13, 116);
+  text-decoration: underline dotted;
+}
