@@ -1,0 +1,23 @@
+.grid-container {
+    border: 3px dotted rgb(221, 192, 244);
+     display: grid;
+     grid-template-columns: auto auto auto;
+   background-color:  rgb(126, 99, 148);
+   padding: 10px;
+   gap: 10px;
+ 
+ }
+ .grid-item {
+   border:3px dotted rgb(70, 13, 116);
+  background-color: rgb(221, 192, 244);
+   padding: 30px;
+   font-size: 30px;
+   text-align: center;
+   font-family: 'Lucida Sans';
+   font-weight: bold;
+   
+ }
+ .menudiv {
+  border: 3px dotted rgb(221, 192, 244);
+  padding: 30px;
+ }
