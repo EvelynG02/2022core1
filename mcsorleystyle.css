@@ -1,10 +1,48 @@
 .outline {
     background-color: white; 
   height:700px;
-  width: 500px;
+  width: 650px;
     border-style: solid;
     border-width: 10px;
     border-color: black;
     margin: 20pt;
     padding: 110pt;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+h2 {
+  text-align: center;
+}
+.image {
+  display: block;
+  margin-left: ;
+  margin-right: auto;
+  width: 50%;
+}
+.lefttext {
+  margin-left:-50%;
+  font-weight: bold;
+}
+.righttext
+{margin-left: 50%;
+  font-weight: bold;}
+
+.namea {
+  font-weight: bold;
+  font-size: x-large;
+}
+.nameb {
+  font-weight: bold;
+  font-size: large;
+}
+
+.namebox2 {
+  border: solid 2px;
+}
+.bottom2 {
+  font-weight: bold;
+}
+
+.body {
+  text-align: center;
 }
