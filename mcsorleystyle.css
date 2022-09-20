@@ -11,11 +11,10 @@
     text-align: center;
 }
 h2 {
-  text-align: center;
+  margin-left: 18%;
 }
 .image {
   display: block;
-  margin-left: ;
   margin-right: auto;
   width: 50%;
 }
