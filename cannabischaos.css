@@ -12,19 +12,19 @@
   }
   
   details > div {
-    margin-top: 0;
+    margin: 0;
     padding: 0rem;
+    border: 0px;
   }
 
   details {
     margin: 0rem;
   }
   summary {
-    list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
+    list-style-image: url(/svg/com3\ \(3\).svg);
   }
   summary::-webkit-details-marker {
-    background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
-    color: transparent;
+    background: url(/svg/com3\ \(3\).svg);
   }
   .summaryp 
   {  font-size: 18px;
@@ -74,6 +74,8 @@
   font-size: 45px;
   text-align: center;
   color:rgb(70, 13, 116);
+  text-decoration: underline;
+  text-decoration-color: whitesmoke;
 
  }
 
