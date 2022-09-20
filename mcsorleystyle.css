@@ -1,9 +1,9 @@
-div.outline {
+.outline {
     background-color: white; 
-  height:500px;
+  height:700px;
   width: 500px;
     border-style: solid;
-    border-width: 20px;
+    border-width: 10px;
     border-color: black;
     margin: 20pt;
     padding: 110pt;
