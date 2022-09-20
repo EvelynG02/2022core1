@@ -4,9 +4,7 @@
   }
 
   details > summary {
-    background-color:  rgb(126, 99, 148);
     cursor: pointer;
-    padding: .5rem 1rem;
   }
   
   details > summary > * {
@@ -14,16 +12,14 @@
   }
   
   details > div {
-    border: 2px solid  rgb(126, 99, 148);
     margin-top: 0;
-    padding: 1rem;
+    padding: 0rem;
   }
 
   details {
-    margin: 1rem;
+    margin: 0rem;
   }
   summary {
-    font-weight: bold;
     list-style-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
   }
   summary::-webkit-details-marker {
@@ -38,27 +34,22 @@
   
 
 .grid-container {
-    border: 3px dotted rgb(221, 192, 244);
+    border: 0px dotted rgb(221, 192, 244);
      display: grid;
      grid-template-columns: auto auto auto;
    background-color:  rgb(126, 99, 148);
-   padding: 10px;
+   padding: 25px;
    gap: 10px;
  
  }
  .grid-item {
-   border:3px dotted rgb(70, 13, 116);
+   border:0px dotted rgb(70, 13, 116);
   background-color: rgb(221, 192, 244);
-   padding: 30px;
+   padding: 15px;
    font-size: 30px;
    text-align: center;
    font-family: 'Lucida Sans';
-   font-weight: bold;
    
- }
- .menudiv {
-  border: 3px dotted rgb(221, 192, 244);
-  padding: 30px;
  }
  body {
   background-color: rgb(105, 116, 103);
@@ -66,10 +57,19 @@
 
  .heading {
  text-align: center;
- font-size: 45px;
+ font-size: 90px;
  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
- color:  rgb(70, 13, 116);
- text-decoration: underline dotted;
+ color: rgb(60, 64, 59);
+ margin: 0px;
+ padding: 0px;
+ gap: 0px;
+ }
+
+ .heading2 {
+  font-size: 45px;
+  text-align: center;
+  color:rgb(126, 99, 148)
+
  }
 
 
@@ -88,20 +88,30 @@ table {
 
 /* Zebra striping */
 tr:nth-of-type(odd) { 
-	background: #eee; 
+	background: rgb(187, 164, 207);; 
 	}
+  tr:nth-of-type(even) { 
+    background: rgb(187, 164, 207);; 
+    }
+
+  td {  
+	border: 3px solid rgb(221, 192, 244);
+  font-size: 15px;
+  color:rgb(70, 13, 116)
+  }
+  
 
 th { 
-	background: #ffffff; 
-	color: rgb(0, 0, 0); 
+  background-color: rgb(105, 116, 103); 
+	color:rgb(70, 13, 116); 
 	font-weight: bold; 
+  font-size: 20px;
+  border: 0px solid #ffffff;
 	}
 
 td, th { 
-	padding: 10px; 
-	border: 1px solid #ccc; 
+	padding: 15px;  
 	text-align: left; 
-	font-size: 18px;
 	}
 
 
