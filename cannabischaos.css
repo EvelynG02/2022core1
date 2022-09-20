@@ -26,6 +26,11 @@
     background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/right-arrow.svg);
     color: transparent;
   }
+  .summaryp 
+  {  font-size: 18px;
+    color:rgb(70, 13, 116)
+
+  }
 
 
 
@@ -96,7 +101,7 @@ tr:nth-of-type(odd) {
 
   td {  
 	border: 3px solid rgb(221, 192, 244);
-  font-size: 15px;
+  font-size: 18px;
   color:rgb(70, 13, 116)
   }
   
@@ -105,7 +110,7 @@ th {
   background-color: rgb(105, 116, 103); 
 	color:rgb(70, 13, 116); 
 	font-weight: bold; 
-  font-size: 20px;
+  font-size: 22px;
   border: 0px solid #ffffff;
 	}
 
@@ -142,12 +147,11 @@ only screen and (max-width: 760px),
 		left: -9999px;
 	}
 	
-	tr { border: 1px solid #ccc; }
 	
 	td { 
 		/* Behave  like a "row" */
-		border: none;
-		border-bottom: 1px solid #eee; 
+		
+      border: 3px solid rgb(221, 192, 244);
 		position: relative;
 		padding-left: 50%; 
 	}
@@ -156,7 +160,7 @@ only screen and (max-width: 760px),
 		/* Now like a table header */
 		position: absolute;
 		/* Top/left values mimic padding */
-		top: 6px;
+		top: 16px;
 		left: 6px;
 		width: 45%; 
 		padding-right: 10px; 
@@ -164,7 +168,7 @@ only screen and (max-width: 760px),
 		/* Label the data */
 		content: attr(data-column);
 
-		color: #000;
+		color: rgb(70, 13, 116);
 		font-weight: bold;
 	}
 
