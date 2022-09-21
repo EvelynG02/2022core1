@@ -1,4 +1,5 @@
 
+  
   details summary > * { 
     display: inline;
   }
@@ -12,13 +13,15 @@
   }
   
   details > div {
-    margin: 0;
+    margin: 0px;
     padding: 0rem;
     border: 0px;
   }
 
   details {
     margin: 0rem;
+    padding: 0rem;
+    border: 0px;
   }
   summary {
     list-style-image: url(/svg/com3\ \(3\).svg);
@@ -30,6 +33,7 @@
   {  font-size: 18px;
     color:rgba(88,56,117,1);
     font-family: 'Noto Serif', sans-serif;
+    
 
   }
   ul {font-size: 18px;
@@ -44,23 +48,23 @@
 
  
 .grid-container {
-    border: 2px solid rgb(221, 192, 244);
+    border: 5px solid rgba(238,224,250,255); ;
      display: grid;
      grid-template-columns: auto auto auto;
    background-color:  rgba(88,56,117,1);
-   padding: 15px;
-   gap: 15px;
-   margin: 0px;}
-  @media (max-width: 1500px) {
+   padding: 5px;
+   gap: 5px;
+  width:fit-content;}
+  @media (max-width: 850px) {
     .grid-container {
       grid-template-columns: auto;
       grid-template-rows: auto auto auto;
-    }
+      width:fit-content;
+    } 
  }
  .grid-item {
-   border:0px dotted rgb(70, 13, 116);
   background-color: rgb(221, 192, 244);
-   padding: 15px;
+   padding: 10px;
    font-size: 30px;
    text-align: center;
    font-family: 'Lucida Sans';
@@ -76,35 +80,36 @@
   }
  .heading {
  text-align: center;
- font-size: 60px;
+ font-size: 40px;
  font-family: 'Noto Serif Bengali', serif;
  color:  rgba(214,206,221,255);
  margin: 0px;
  padding: 0px;
  gap: 0px;
- display: inline-flex;
- align-self: center;
- align-content: center;
+ 
+display: flex;
+justify-content: center;
  }
  .heading3 {
   text-align: center;
-  font-size: 60px;
+  font-size: 40px;
   font-family:'Noto Serif Bengali', serif;
   color: rgba(214,206,221,255);
   margin: 0px;
   padding: 0px;
   gap: 0px;
-  display: inline-flex;
- align-self: center;
+  display: flex;
+justify-content: center;
   }
 
  .heading2 {
-  font-size: 50px;
+  font-size: 45px;
   text-align: center;
   color:rgba(88,56,117,1);
   text-decoration-color: whitesmoke;
   font-family: 'Noto Serif Bengali', serif;
   font-weight: bold;
+  
 
  }
  .menu {
@@ -116,16 +121,16 @@
 
 
 
-@media (max-width: 600px) {
+@media (max-width: 400px) {
   .grid-item
   {
-    display: block;
+    display:block;
   }
 }
 table { 
-	width: 500px; 
+	width: 465px; 
 	border-collapse: collapse; 
-	margin:20px auto;
+	margin: 1px;
 	}
 
 /* Zebra striping */
@@ -147,10 +152,10 @@ tr:nth-of-type(odd) {
   
 
 th { 
-  background-color: rgb(105, 116, 103); 
+  background-color: rgba(88,56,117,1); 
 	color: rgba(238,224,250,255); 
 	font-weight: bold; 
-  font-size: 22px;
+  font-size: 20px;
   border: 0px solid #ffffff;
   font-family: 'Noto Serif Bengali', serif;
   text-align: center;
@@ -159,6 +164,7 @@ th {
 	}
 .strainname {
   text-align: left;
+  font-size: 24px;
 }
 
 
@@ -171,7 +177,7 @@ and also iPads specifically.
 */
 @media 
 only screen and (max-width: 760px),
-(min-device-width: 768px) and (max-device-width: 124px)  {
+(min-device-width: 260px) and (max-device-width: 1024px)  {
 
 	table { 
 	  	width: 100%; 
