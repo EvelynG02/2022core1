@@ -55,6 +55,7 @@
    padding: 5px;
    gap: 5px;
   width:fit-content;}
+
   @media (max-width: 850px) {
     .grid-container {
       grid-template-columns: auto;
@@ -128,7 +129,7 @@ justify-content: center;
   }
 }
 table { 
-	width: 465px; 
+	width: 455px; 
 	border-collapse: collapse; 
 	margin: 1px;
 	}
