@@ -1,11 +1,43 @@
 <html>
     <head>
+        <script src="/2022core1/lib/jquery-3.6.1.min.js"></script>
+        <script src="/core.js"></script>
         <title>Museum of Harmonic Collection</title>
+        <link rel="stylesheet" href="stylesmuseum.css">
     </head>
-    <body> 
-        <h1>Entries:</h1>
-        <ol>
-            <a href="entry1.html">Entry 1</a>
-        </ol>
+    <body>
+      <div class="scene">
+        <div class="cube">
+          <div class="cube__face cube__face--front">museum</div>
+          <div class="cube__face cube__face--back">welcome:</div>
+          <div class="cube__face cube__face--right">new:<a href="entry1.html">1</a></div>
+          <div class="cube__face cube__face--left">all:<a href="entry1.html">1</a></div>
+          <div class="cube__face cube__face--top">about:</div>
+          <div class="cube__face cube__face--bottom">contact:</div>
+        </div>
+      </div>
+      <p class="radio-group">
+        <label>
+          <input type="radio" name="rotate-cube-side" value="front" checked /> front
+        </label>
+        <label>
+          <input type="radio" name="rotate-cube-side" value="right" /> right
+        </label>
+        <label>
+          <input type="radio" name="rotate-cube-side" value="back" /> back
+        </label>
+        <label>
+          <input type="radio" name="rotate-cube-side" value="left" /> left
+        </label>
+        <label>
+          <input type="radio" name="rotate-cube-side" value="top" /> top
+        </label>
+        <label>
+          <input type="radio" name="rotate-cube-side" value="bottom" /> bottom
+        </label>
+      </p>
+      
+        <script src="/2022core1/lib/jquery-3.6.1.min.js"></script>
+        <script src="/core.js"></script>
     </body>
 </html>
