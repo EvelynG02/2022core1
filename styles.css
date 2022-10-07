@@ -1,6 +1,76 @@
 
+body, html{
+  margin:0;
+  padding:0;
+}
 
-body {
+/* Big
+-------------------------------------------------- */
+header{
+  position: fixed;
+  background:white;
+  z-index:999;
+  top: 0;
+  height: calc(100vh + 2px);
+  width: 100%;
+  transition: all 1s;
+  border-bottom:2px solid rgb(0, 0, 0)
+}
+            
+header .titre{
+  position:absolute;
+  bottom:0;
+  left:0;
+  right:0;
+  padding:0;
+  text-align:center;
+  height:calc(100vh - 2px);
+  transition:all 1s;
+}
+header .titre h1{
+  position:absolute;
+  bottom:0;
+  width: 100%;
+  font-weight:normal;
+  letter-spacing:-.025em;
+  transition:all 1s;
+  margin:0;
+  padding:0;
+  font-size: 22vw;
+}
+
+main {
+  border-top:2px solid rgb(0, 0, 0);
+  width: 100%;
+  font-size:10vw;
+  display: inline-block;
+  height:auto;
+  line-height:1em;
+  text-align:center;
+  background:#ccc;
+  margin-top:100vh;
+  transition: all 1s;
+}
+
+/* Small
+ -------------------------------------------------- */
+body.small header .titre{
+  padding:0;
+} 
+body.small main{
+  margin-top:100px;
+  } 
+body.small header{
+  font-size: 15px;
+  height: 100px;
+}
+body.small header .titre h1{
+  font:45pt/1em "Regular"; }
+
+
+
+
+  main {
     background-color: rgb(195, 179, 247);
     font-family: sans-serif;
   }
