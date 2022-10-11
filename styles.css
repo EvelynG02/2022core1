@@ -1,9 +1,12 @@
+h1.a {font-family: "Notosans", sans-serif;}
+h1.b {font-family: "Figtree", sans-serif;}
+h1.c {font-family: "Bodonimoda", serif;}
 
 body, html{
   margin:0;
   padding:0;
 }
-
+p.classwebsites {text-align: center;}
 /* Big
 -------------------------------------------------- */
 header{
@@ -14,10 +17,13 @@ header{
   height: calc(100vh + 2px);
   width: 100%;
   transition: all 1s;
-  border-bottom:2px solid rgb(0, 0, 0)
+  border-bottom:0px;
+  font-family: "Figtree", sans-serif;
+  
 }
             
 header .titre{
+  font-family: "Figtree", sans-serif;
   position:absolute;
   bottom:0;
   left:0;
@@ -26,8 +32,11 @@ header .titre{
   text-align:center;
   height:calc(100vh - 2px);
   transition:all 1s;
+  
+  font-weight: bold;
 }
 header .titre h1{
+  font-family: "Figtree", sans-serif;
   position:absolute;
   bottom:0;
   width: 100%;
@@ -36,19 +45,21 @@ header .titre h1{
   transition:all 1s;
   margin:0;
   padding:0;
-  font-size: 22vw;
+  font-size: 26vw;
+  
+  font-weight: bold;
 }
 
 main {
-  border-top:2px solid rgb(0, 0, 0);
+  border-top:0px solid rgb(0, 0, 0);
   width: 100%;
-  font-size:10vw;
+  font-size:5vw;
   display: inline-block;
   height:auto;
   line-height:1em;
-  text-align:center;
+  text-align:left;
   background:#ccc;
-  margin-top:100vh;
+  margin-top:5vh;
   transition: all 1s;
 }
 
@@ -65,14 +76,16 @@ body.small header{
   height: 100px;
 }
 body.small header .titre h1{
-  font:45pt/1em "Regular"; }
+  font:65pt/1.2em "Figtree", sans-serif;
+
+  font-weight: bold; }
 
 
 
 
   main {
     background-color: rgb(195, 179, 247);
-    font-family: sans-serif;
+    font-family: "Notosans", sans-serif;
   }
   h1 {
     color: rgb(0, 0, 0);
@@ -81,13 +94,13 @@ body.small header .titre h1{
     color: rgb(0, 0, 0);
   }
   ol {
-    list-style-type: upper-roman;
+    list-style-type:none;
   }
   div{
     text-align: center;
 }
 a{
-    display: block;
+    display: inline;
 }
 /* unvisited link */
 a:link {
@@ -110,20 +123,15 @@ a:link {
   }
 
  .name {
-  text-align: center;
-  text-decoration: underline  line-through dotted;
+  text-align: left;
 
 
  }
  .underline {
-  text-decoration: underline  line-through dotted;
   font-weight: bold;
 }
-  .onlyunder {
-    text-decoration: underline dotted;
-    font-weight: bold;
-    font-style: italic;
-  }
+  
   ul {
+    font-size: 1.5vw;
     line-height: 1.75em;
   }
