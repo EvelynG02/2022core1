@@ -85,7 +85,7 @@ color: black;
 
   main {
     background: rgb(255,255,255);
-background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(215,231,188,1) 85%, rgba(145,177,92,1) 95%);
+background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(215,231,188,1) 85%, rgba(145,177,92,1) 100%);
     font-family: "Notosans", sans-serif;
   }
   h1 {
@@ -136,5 +136,5 @@ a:link {
     font-size: 1.5vw;
     line-height: 1.75em;
   }
-  .onlyunderwhite{background-color: rgb(255, 255, 255);
+  .onlyunderwhite{
   display: center;}
