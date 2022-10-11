@@ -40,13 +40,12 @@ header .titre h1{
   position:absolute;
   bottom:0;
   width: 100%;
-  font-weight:normal;
   letter-spacing:-.025em;
   transition:all 1s;
-  margin:0;
+  margin-bottom: 0px;
   padding:0;
   font-size: 24vw;
-  
+  color: rgba(145,177,92,1);
   font-weight: bold;
 }
 
@@ -66,7 +65,7 @@ main {
 /* Small
  -------------------------------------------------- */
 body.small header .titre{
-  padding:0;
+  padding:0; 
 } 
 body.small main{
   margin-top:100px;
@@ -74,17 +73,19 @@ body.small main{
 body.small header{
   font-size: 15px;
   height: 100px;
+  
 }
 body.small header .titre h1{
   font:65pt/1.2em "Figtree", sans-serif;
-
+color: black;
   font-weight: bold; }
 
 
 
 
   main {
-    background-color: rgb(195, 179, 247);
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 50%, rgba(215,231,188,1) 85%, rgba(145,177,92,1) 95%);
     font-family: "Notosans", sans-serif;
   }
   h1 {
@@ -104,22 +105,22 @@ a{
 }
 /* unvisited link */
 a:link {
-    color: #89469a;
+    color: rgba(88,56,117,1) ;
   }
   
   /* visited link */
   a:visited {
-    color:   #991984;
+    color: rgba(145,177,92,1);
   }
   
   /* mouse over link */
   a:hover {
-    color: #ef3cd1;
+    color: rgba(194,166,219,1);
   }
   
   /* selected link */
   a:active {
-    color: rgb(0, 0, 0);;
+    color:  rgba(88,56,117,1);
   }
 
  .name {
