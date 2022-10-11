@@ -136,5 +136,5 @@ a:link {
     font-size: 1.5vw;
     line-height: 1.75em;
   }
-  .onlyunderwhite{background-color: rgba(255, 255, 255, 0.1);
-  border-radius: 25px;}
+  .onlyunderwhite{background-color: rgb(255, 255, 255);
+  display: center;}
