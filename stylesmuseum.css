@@ -174,6 +174,70 @@ label { margin-right:  0%}
 
 
 
+#prepend-btn{
+    width:auto;
+    height:auto;
+    position:fixed;
+    left:120px;
+    top:10px;
+    border: solid 1px black;
+    }
+    #append-btn{
+    width:auto;
+    height:auto;
+    position:fixed;
+    left: 200px;
+    top:10px;
+    border: solid 1px black;
+    }
+    #box1{
+    width:15px;
+    height:15px;
+    background-color:rgb(234, 181, 243);
+    border:10px black solid;
+    }
+    .newbox{
+    width:15px;
+    height:15px;
+    background-color:rgb(66, 98, 72);
+    border:10px black solid;
+    }
+
+    #stop{
+        width:auto;
+        height:auto;
+        position:fixed;
+        left:280px;
+        top:10px;
+        border: solid 1px black;
+    }
+    #colorchange{
+        width:auto;
+        height:auto;
+        position:fixed;
+        left: 340px;
+        top:10px;
+        border: solid 1px black;
+    }
+
+#div1{
+    background-color:red;
+    width: 15px;
+    height: 15px;
+    margin:10px;
+    border:10px black solid;
+    padding: 10px;
+    box-sizing:border-box;
+}
+#div2{
+    background-color:blue;
+    width: 15px;
+    height: 15px;
+    margin:10px;
+    border:10px black solid;
+    padding: 10px;
+}
+
 
 
 
