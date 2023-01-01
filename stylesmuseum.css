@@ -105,32 +105,26 @@ label { margin-right:  0%}
 
 .container {
   display:block;
-  justify-content:flex-start;
-  margin: 1px;
+  justify-content:space-between;
+  margin: .5px;
 
   position: absolute;
   width: 600px;
   height: 600px;
-  border: 1px solid  rgb(15, 14, 18);
-  line-height: 600px;
-  font-size: 80px;
-  font-weight: bold;
-  color: rgba(255, 255, 255, 0.757);
-  text-align: center;
+ 
 }
 
 .dropzone {
-  padding: 1px;
+  padding: .5px;
 
   position: absolute;
   width: 600px;
   height: 600px;
   border: 1px solid  rgb(15, 14, 18);
   line-height: 600px;
-  font-size: 80px;
+  font-size: 10px;
   font-weight: bold;
   color: rgba(255, 255, 255, 0.757);
-  text-align: center;
 }
 
 .draggable {
