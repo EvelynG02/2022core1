@@ -104,33 +104,21 @@ label { margin-right:  0%}
 
 
 .container {
-  display:block;
+  display:flex;
   justify-content:space-between;
-  margin: .5px;
-
-  position: absolute;
-  width: 600px;
-  height: 600px;
- 
+  margin: 2ch;
 }
 
 .dropzone {
-  padding: .5px;
-
-  position: absolute;
-  width: 600px;
-  height: 600px;
-  border: 1px solid  rgb(15, 14, 18);
-  line-height: 600px;
-  font-size: 10px;
-  font-weight: bold;
-  color: rgba(255, 255, 255, 0.757);
+  width: calc(50% - 1ch);
+  padding: 2ch;
+  border: 1px solid gray;
 }
 
 .draggable {
   border: 1px solid lightgray;
   padding: 1px;
-  background-color: #efefef;
+  background-color: #7bd8d587;
   cursor: move;
 
 }
@@ -138,7 +126,7 @@ label { margin-right:  0%}
   margin-top: 1px;
 }
 .draggable.is-dragging {
-  opacity: 0.25;
+  opacity: 0.45;
 }
 
 
