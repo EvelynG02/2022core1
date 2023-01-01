@@ -104,29 +104,47 @@ label { margin-right:  0%}
 
 
 .container {
-  display: flex;
-  justify-content: space-between;
-  margin: 2ch;
+  display:block;
+  justify-content:flex-start;
+  margin: 1px;
+
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  border: 1px solid  rgb(15, 14, 18);
+  line-height: 600px;
+  font-size: 80px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.757);
+  text-align: center;
 }
 
 .dropzone {
-  width: calc(50% - 1ch);
-  padding: 2ch;
-  border: 1px solid gray;
+  padding: 1px;
+
+  position: absolute;
+  width: 600px;
+  height: 600px;
+  border: 1px solid  rgb(15, 14, 18);
+  line-height: 600px;
+  font-size: 80px;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.757);
+  text-align: center;
 }
 
 .draggable {
   border: 1px solid lightgray;
-  padding: 1.5ch;
+  padding: 1px;
   background-color: #efefef;
   cursor: move;
 
 }
 .draggable + .draggable {
-  margin-top: 1.5ch;
+  margin-top: 1px;
 }
 .draggable.is-dragging {
-  opacity: 0.5;
+  opacity: 0.25;
 }
 
 
