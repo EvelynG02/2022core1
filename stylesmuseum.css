@@ -106,13 +106,16 @@ label { margin-right:  0%}
 .container {
   display:flex;
   justify-content:space-between;
-  margin: 2ch;
+  width: 600px;
+  height: 600px;
 }
 
 .dropzone {
   width: calc(50% - 1ch);
   padding: 2ch;
   border: 1px solid gray;
+  width: 600px;
+  height: 600px;
 }
 
 .draggable {
@@ -120,7 +123,11 @@ label { margin-right:  0%}
   padding: 1px;
   background-color: #7bd8d587;
   cursor: move;
-
+  font-size: 24px;
+  color: white;
+  text-align: left;
+  width: 24px;
+  height: 24px;
 }
 .draggable + .draggable {
   margin-top: 1px;
